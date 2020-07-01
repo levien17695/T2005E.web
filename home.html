@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang Chu</title>
+</head>
+<body>
+  <h1> Đây là tiêu đề: dòng hiện lên to nhất trong trang </h1>
+  <h2> h2 nhỏ hơn h1: h1 là to nhất </h2>
+  <p> Thẻ (p) để viết nội dung bài <br/>: thẻ (br) là thẻ xuống dòng  </p>
+  <p> <b></b> thẻ (b): <b> tô đậm chữ bên trong thẻ </b></p> <br/> thẻ (a) là thẻ gắn link mình phải chọn thuộc tính trong thẻ mở <a href="http://google.com.vn">ví dụ gắn linh </a>
+  <p> nếu muốn ấn vào link mà tự động mở một cửa sổ mới thì gắn thêm target="_blank"... <a href="http://google.com.vn" target="_blank"> ví dụ</a></p>
+  <p> để tạo ra một mạng code thì mình t ra một cặp code</p>
+  <code></code>
+  <p> để chèn ảnh thì phải dùng thẻ (img) <img src="ảnh/yêu em.jpg" height="566" width="604"/></p>
+  <p>để chèn ảnh và có caption bên dưới ảnh thì dùng thẻ figure và chap là thẻ figcaption. </p>
+  <p> để in nghiêng chữ thì dùng thẻ (i). <i> ví dụ </i></p>
+
+  <figure>
+      <img src="ảnh/yêu em.jpg" height="566" width="604"/>
+      <figcaption>captiong cho ảnh</figcaption>
+  </figure>
+ <p> dùng thẻ (ol) để nó tự đánh số thứ tự bên trong thẻ (ol) là thẻ (li)</p>
+  <p>thẻ (li) phải trong thẻ (ol) 2 thẻ k tách rời đc</p>
+ <p> ví dụ </p>
+ <ol>
+     <li> cơm rang dưa bò</li>
+     <li> cơm rang cải bò</li>
+ </ol>
+<p> dùng thẻ (ul) để k đánh số thứ tự. Bên trog thẻ (ul) phải là thẻ (li) </p>
+<p> Ví Dụ </p>
+<ul>
+    <li> cafe </li>
+    <li> cacao </li>
+</ul>
+<p>để tạo danh sách có phân loại cho từng nhóm thì dùng thẻ (dl). theo thứ tự (dl) - (dt) - (dd) </p>
+<dl>
+    <dt>Đồ ăn</dt>
+    <dd> cơm </dd>
+    <dd> phỏ </dd>
+    <dt> Đồ uống </dt>
+    <dd> nước lọc </dd>
+    <dd> nước cam </dd>
+</dl>
+<p> muốn liệt kê dữ liệu bằng bảng thì dùng thẻ (table). Trong table có 2 thẻ (thead) và (tbody) </p>
+<p> trong thead có thẻ (th) đại diện cho cột </p>
+ <p> trong tbody có thẻ (tr).trong th có (td) thể hiện các tin tức cần ghi ra. (th) có bao cột thì (tr) chỉ đc có từng đấy số thông tin </p>
+<p>để tạo khung cho bảng thì thêm border ngay trong thẻ mở của table. số bên trong "" là độ dày cuẩ khung </p>
+  <p> rowspan là lệnh dùng cho 2 thừng cùng một cột cùng 1 dữ liệu </p>
+  <table border="1">
+    <thead>
+    <th> MSSV </th>
+    <th> Tên SV </th>
+    <th> Điểm Thi</th>
+    <th> Tên Lớp </th>
+    </thead>
+    <tbody>
+     <tr>
+         <td> 001</td>
+         <td> Lê Kỷ Viễn</td>
+         <td> 10</td>
+         <td> FPT </td>
+     </tr>
+    <tr>
+        <td> 002</td>
+        <td> Nguyễn Mai CẨm Trà</td>
+        <td> 10</td>
+        <td rowspan="2"> CDNT </td>
+    </tr>
+    <tr>
+        <td> 003 </td>
+        <td> abc </td>
+        <td> 1 </td>
+    </tr>
+    </tbody>
+</table>
+<p> để gắn nhạc thì dùng thẻ (audio). phải để trong thẻ (p). Trong thẻ mở audio phải có lện controls autoplay. và trong thẻ audio có thẻ (source) </p>
+
+<p>
+    <audio controls autoplay>
+        <source src="nhac/Tu%20Choi%20Nhe%20Nhang%20Thoi%20-%20Bich%20Phuong_%20Ph.mp3"/>
+    </audio>
+</p>
+<p> để tải video lên thì dùng thẻ (video). Trong thẻ mở video phải có lện controls. và cái đặt kích cỡ khung bằng các lệnh width và heigh trong thẻ mở của video.và trong thẻ audio có thẻ (source) </p>
+<p>
+   <video controls width="" height="" >
+       <source src="">
+
+   </video>
+</p>
+<p> để cho thêm clip youtube vào trang. thì vào clip youtube ấn chia sẻ r ấn nhúng và cop đường link</p>
+<p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/1x7uzlJZvWg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+</body>
+</html>
