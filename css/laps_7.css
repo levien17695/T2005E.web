@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    float: left;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    box-sizing: border-box;
+    /*padding: 10px;*/
+    margin-left: 15px;
+    margin-right: 0px;
+}
+.Tong{
+    background-color: #a1a1a1;
+    margin: 0px 20px;
+    font-family: 'Lato', sans-serif;
+
+}
+.content{
+    width: 100%;
+    background-color: #a1a1a1;
+    line-height: 25px;
+    box-sizing: border-box;
+    /*padding: 15px ;*/
+    /*margin-right: 15px;*/
+    /*margin-left: 25px;*/
+}
+.right{
+    float: left;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.right1{
+    font-weight: 700;
+    font-size: 20px;
+}
+.left{
+    float: left;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.left1{
+    font-weight: 700;
+    font-size: 20px;
+}
+.bottom{
+    float: left;
+    width: 100%;
+
+}
+.stage{
+    float: left;
+    width: 40%;
+}
+.Zip{
+    float: left;
+    width: 40%;
+}
+#bottom-Stage{
+    width: 50%;
+    margin-right: 10px;
+    height: 30px
+}
+#bottom-Zip{
+    width: 50%;
+    height: 30px
+}
+.bot{
+    display: block;
+}
+#input-group{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+}
+.end{
+    float: left;
+    width: 100%;
+}
+.nam{
+    float: left;
+    width: 40%;
+}
+.CVV{
+    float: left;
+    width: 40%;
+}
+#Ext-year{
+    width: 50%;
+    margin-right: 10px;
+    height: 30px
+}
+#cvv{
+    width: 50%;
+    height: 30px
+}
+input[type=submit]{
+    width: 95%;
+    background-color: green;
+    box-sizing: border-box;
+    padding: 14px 20px;
+    /*margin-right: 10px ;*/
+    margin-left: 25px;
+    margin-bottom: 15px;
+}

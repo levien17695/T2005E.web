@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>laps 7</title>
+    <link rel="stylesheet" href="css/laps_7.css">
+    <link rel="stylesheet" href="Thu_vien/fontawesome/css/all.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+     <div class="header">
+         <h4>Responsive Checkout From</h4>
+     </div>
+     <section class="Tong">
+
+         <div class="content">
+
+             <div class="right">
+                 <p class="right1">Billing Address</p><br/>
+                 <form method="post" action="#">
+                     <p><i class="fas fa-user-check"></i>Full name</p>
+                     <input id="input-group" type="text" name="Fullname" placeholder="Full Name"/><br/>
+                     <p><i class="fas fa-envelope"></i>Email</p>
+                     <input id="input-group" type="email" name="email" placeholder="Enter email.."/><br/>
+                     <p><i class="far fa-address-card"></i>Address</p>
+                     <input id="input-group" type="text" name="address" placeholder="Address.."/><br/>
+                     <p><i class="fas fa-university"></i>City</p>
+                     <input id="input-group" type="text" name="City" placeholder="City.."/><br/>
+                 </form>
+                 <div class="bottom">
+                     <div class="stage">
+                         <form method="post" action="#">
+                             <label>Stage <br/><input id="bottom-Stage" type="text" name="stage" placeholder="Stage.."/></label><br/>
+                         </form>
+                     </div>
+                     <div class="Zip">
+                         <form method="post" action="#">
+                             <label>Zip <br/><input id="bottom-Zip" type="text" name="Zip" placeholder="Zip.."/></label><br/>
+                         </form>
+                     </div>
+                 </div><br/>
+                 <div class="bot">
+                     <label><input type="checkbox" name="rules"/>Shipping address same as billing</label>
+                 </div>
+             </div>
+             <div class="left">
+                 <p class="left1">Payment</p><br/>
+                 <form method="post" action="#">
+                     <label>Accepted Cards<br/><i class="fab fa-cc-visa"> </i> <i class="fab fa-cc-mastercard"> </i> <i class="fab fa-cc-amex"></i> <i class="fab fa-cc-discover"></i></label><br/>
+                     <p>Name on card</p>
+                     <input id="input-group" type="text" name="Name on card" placeholder="Name on card.."/><br/>
+                     <p>Credit Card Number</p>
+                     <input id="input-group" type="number" name="Credit Card" placeholder="Credit Card Number.."/><br/>
+                     <p>Ext Month</p>
+                     <input id="input-group" type="month" name="Ext Month" placeholder="Month"/><br/>
+                 </form>
+               <div class="end">
+                 <div class="nam">
+                     <form method="post" action="#">
+                         <label>Ext Year<br/><input id="Ext-year" type="number" name="Ext year" placeholder="Ext year.."/></label><br/>
+                     </form>
+                 </div>
+                 <div class="CVV">
+                     <form method="post" action="#">
+                         <label>CVV <br/><input id="cvv" type="number" name="Cvv" placeholder="Cvv.."/></label><br/>
+                     </form>
+                 </div>
+               </div>
+             </div>
+             <input type="submit" value="Continue to Checkout"/>
+         </div>
+     </section>
+
+</body>
+</html>
