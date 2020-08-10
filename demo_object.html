@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Object</title>
+</head>
+<body>
+      <h1 id="SinhVien-Ten"></h1>
+      <h2 id="MSSV"></h2>
+      <h3 id="SDT">ĐT</h3>
+      <h4 id="Diachi">Địa chỉ:</h4>
+      <script type="text/javascript">
+          var SinhVien = {
+              Ten: "Lê Kỷ Viễn",
+              MSSV: "TH2004003",
+              SDT: "0344485495",
+              DiaChi: "13 Chùa Vua Phường Phố Huế Quận Hai Bà Trưng Hà Nội",
+              BanGai: {
+                  Ten: "Nguyễn Mai Cẩm Trà",
+                  SDT: "0868794687",
+                  DiaChi: "609 Bát Khối Long Biên Gia Lâm Hà Nội",
+                  NhanTin: function () {
+                      console.log("Nguyễn Mai Cẩm Trà đang nhắn tin");
+                  }
+                  Makeup: function () {
+                      console.log("Nguyễn Mai Cẩm Trà đang makeup");
+                  }
+                  VeTinh: [
+                      {
+                          Ten: "Thằng Chó Má",
+                          SDT: "0987898773",
+                          Xe: "SH",
+                          MuaQua: function () {
+                              console.log("Mua quà...");
+                          }
+                      },
+                      {
+                          Ten: "Thằng Chó Má",
+                          SDT: "0987898773",
+                          Xe: "SH",
+                          MuaQua: function () {
+                              console.log("Mua quà...");
+                          }
+                      },
+                      {
+                          Ten: "Thằng Chó Má",
+                          SDT: "0987898773",
+                          Xe: "SH",
+                          MuaQua: function () {
+                              console.log("Mua quà...");
+                          }
+                      },
+                      {
+                          Ten: "Thằng Chó Má",
+                          SDT: "0987898773",
+                          Xe: "SH",
+                          MuaQua: function () {
+                              console.log("Mua quà...");
+                          }
+                      },
+                  ],
+              }
+              Ghen: function () {
+                  console.log("Ghen...");
+              }
+              DiChoi: function () {
+                  console.log("đi chơi..");
+              }
+          }
+          document.getElementById("SinhVien-Ten").innerText = SinhVien.Ten;
+          document.getElementById("MSSV").innerText = SinhVien.MSSV;
+          document.getElementById("SDT").innerText += SinhVien.SDT;
+          document.getElementById("diachi").innerText += SinhVien.DiaChi;
+      </script>
+
+</body>
+</html>

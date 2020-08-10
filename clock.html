@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clock</title>
+    <link type="text/css" href="css/clock.css"/>
+</head>
+<body>
+     <section class="section">
+         <div class="container">
+             <div class="clock">
+                 <div class="hour"></div>
+                 <div class="min"></div>
+                 <div class="sec"></div>
+             </div>
+         </div>
+     </section>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+    var hour = 0;
+    var min = 0;
+    var sec = 0;
+    var time = setInterval(()=>{
+        $(".sec").css("tranfrom","rotate("+(sec*6)+"deg)");
+        $(".min").css("tranfrom","rotate("+(min*6+(sec/10))+"deg)");
+        $(".hour").css("tranfrom","rotate("+(hour*30+(min/2)+(sec/20))+"deg)");
+        sec++;
+        if(sec>=60){
+            min++;
+            sec=0;
+        }
+        if(min>=60){
+            hour++;
+            min=0;
+        }
+        if (hour >=12){
+            hour = 0;
+        }
+    },1000);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.all{
+    width: 100%;
+    height: 100%;
+}
+.tong{
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.khung{
+    float: left;
+    width: 22%;
+    height: 480px;
+    border: 1px solid #c6c8c2;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+.anh img{
+    width: 100%;
+}
+.nd1{
+    padding-left: 10px;
+}
+p{
+    color: #c6c8c2;
+    font-size: 17px;
+}
+h4{
+    color: #000000;
+}
+.dacbiet{
+    padding-top: 20px;
+}
+.gia{
+    float: left;
+    font-size: 17px;
+}
+.giaa{
+    float: left;
+    text-decoration: line-through;
+    margin-right: 5px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+.giaaa{
+    float: left;
+    color: red;
+    font-size: 17px;
+}
+.sale{
+    float: left;
+    padding-left: 5px;
+    margin-left: 5px;
+    background-color: #6f5016;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.icon i{
+    color: yellow;
+    float: left;
+}
+.new{
+    position: absolute;
+    background-color: rgb(79, 182, 141);
+    font-weight: 700;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 3px 5px 3px 5px;
+}

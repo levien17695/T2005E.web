@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+</head>
+<body>
+      <h1 id="abc">Demo JS with class tag</h1>
+      <p class="pg">HLV Ole Solskjaer không có nhiều lựa chọn ngoài việc tiếp tục đặt niềm tin vào thủ môn David de Gea, ít nhất ở thời điểm này.</p>
+      <p class="pg">
+          Không chỉ De Gea mà Solskjaer cũng phải chịu rất nhiều áp lực về vấn đề thủ môn ở M.U lúc này. De Gea đã liên tiếp mắc sai lầm ngớ ngẩn xuyên suốt 2 năm qua, và HLV người Na Uy hết lần này đến lần khác đứng ra bảo vệ anh
+      </p>
+<script type="text/javascript">
+    var h = document.getElementById("abc");
+    var p = document.getElementsByClassName("pg")
+    h.style.textTransform = "uppercase"
+    for (var i =0;i<p.length;i++){
+        p[i].style.color = "red";
+    }
+    var p2 = document.getElementsByTagName("p");
+    for(var e of p2){
+        e.style.color = "green";
+    }
+    var p3 = document.getElementsByTagName("h1");
+    for(var e of p3){
+        e.style.textTransform = "none";
+    }
+</script>
+
+</body>
+</html>

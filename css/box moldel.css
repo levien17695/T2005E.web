@@ -1,0 +1,21 @@
+div{
+    float:left;/* float là dòn tất cả về một phía*/
+    /*width: calc(33% - 42px); /* width là độ rộng của từng vùng. Có thể dùng tỉ lệ %*/
+    width: calc (100% / 2);
+    height: calc(33% - 42px);/*độ cao của tùng vưng. Có thể dùng tỉ lệ . Calc là thẻ để cho nội dung gói gọn trong vùng%*/
+    /*border: 5px solid red;/* đường viền của từng vùng*/
+    border-bottom: 5px solid red;/* đường viền dưới chân từng vùng*/
+    border-top: 2px solid red;/* đường viền trên đầu từng vùng*/
+    border-right: 4px solid red;/* đường viền bên phải từng vùng*/
+    border-left: 3px solid red;/* đường viền bên trái từng vùng*/
+    padding: 5px 5px 5px 5px;/*tạo khoảng cách của đường viền với nội dung. thứ tự các số: trên - phải - dưới - trái. số nào k ghi thì sẽ lấy số của thằng đối diện*/
+    margin: 10px;/* nguyên tắc như thằng padding*/
+    box-sizing: border-box;/* nội dung gói gọn trong vùng*/
+    overflow: auto; /*cắt đi phần thừa. Víble, hidden, auto, scroll*/
+    border-radius: 100%; /* bo tròn lại những gì mình cần*/
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 0.5;/*độ mờ của ảnh*/
+}

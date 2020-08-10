@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS and HTML</title>
+</head>
+<body>
+<h1 id="title"><i>Đây là tiêu đề một bài báo</i></h1>
+      <p id="content">Phong độ của De Gea thiếu ổn định suốt 2 năm qua, anh mắc nhiều sai lầm ngớ ngẩn hơn và thường xuyên bị chỉ trích. Tuy vậy, De Gea vẫn có những thời điểm, những trận đấu xuất thần mang đến cảm giác yên tâm đặc biệt cho Quỷ đỏ.</p>
+      <script type="text/javascript">
+          var obj = {
+              name: "Nguyễn Thị Na",
+              age: 18,
+              tel: "099999888",
+              chay: function () {
+                  console.log("Nguyễn Thị Na đang chay");
+              }
+          }
+          obj.chay();
+          console.log("ten cua ban:"+obj.name);
+          obj.name = "Nguyễn Thị Kỳ Duyên";
+          console.log(obj.name+" tel: "+obj.tel);
+          obj.chay();
+          // tạo các đối tượng DOM element
+          var h = document.getElementById("title");
+          //console.log(h)
+          console.log(h.innerText)
+          //h.innerText = sv.name;
+          console.log(h.innerHTML);
+          h.innerHTML = "<b><i><u>"+obj.name"</u></i></b>";
+          h.style.color = "red";
+          h.style.fontSize = "50px";
+          h.classList.add("t205e")
+      </script>
+
+</body>
+</html>

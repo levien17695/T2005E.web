@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Event</title>
+    <link rel="stylesheet" href="css/demo_event.css">
+</head>
+<body>
+     <button type="button" onclick="ok()">Cham vao em di</button>
+     <div id="box" ondblclick="dcB(this)" class="box" onmouseenter="green(this)" onmouseleave="pink(this)"></div>
+     <div id="box2" ondblclick="dcB(this)" class="box" onmouseenter="green(this)" onmouseleave="pink(this)"></div>
+     <p oncopy="abc()">
+         Chỉ còn 2 trận nữa và chúng tôi sẽ cống hiến toàn bộ sức lực cho đến cuối cùng
+     </p>
+     <input type="text" name="demo" onkeydown="showKeyDown(this)" onkeyup="showKeyUp(this)" onkeypress="showKeyPress(this)"/>
+     <select name="sex" onchange="">
+         <option value="male">Male</option>
+         <option value="female">Female</option>
+         <option value="other">Other</option>
+     </select>
+     <form action="#" method="get">
+         <input name="email" type="email" placeholder="Email.."/>
+         <button type="submit" onclick="return confirm('Chac chan gui di')">Submit</button>
+     </form>
+<script type="text/javascript">
+    function ok() {
+        alert("i want fuck you");
+    }
+    function green(e) {
+        e.style.backgroundColor = 'green';
+    }
+    function pink(e) {
+        e.style.backgroundColor = 'deeppink';
+    }
+    function dcB(e) {
+        e.style.backgroundColor = "white";
+    }
+    function abc() {
+        alert("Vi Pham Ban Quyen")
+    }
+</script>
+<script type="text/javascript">
+    function gender(e) {
+        var v = e.value;
+        console.log(v);
+    }
+    function showKeyDown(e) {
+        var v = e.value;
+        console.log(v);
+    }
+    function showKeyUp(e) {
+        var v = e.value
+        console.log(v);
+    }
+    function showKeyPress(e) {
+        var v = e.value;
+        console.log(v);
+    }
+</script>
+
+</body>
+</html>

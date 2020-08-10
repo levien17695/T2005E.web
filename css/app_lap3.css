@@ -1,0 +1,161 @@
+
+*{/* thẻ ssao * là thẻ tất cả các bộ phận đều bị ảnh hưởng bởi sao */
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', 'sans-ser';
+    font-size: 14px;
+    color: #333333;
+    line-height: 1.5;
+    font-weight: 400;
+    background-color: red;
+}
+#All{
+    width: 1200px;
+    margin: 100px auto;
+    border-radius: 5px;
+}
+#Top{
+    float: left;
+    width: 100%;
+    background-color: #bac3cc;
+    padding: 50px 0 40px;
+    text-align: center;
+}
+#top h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+#top h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+#Anh{
+    width:  280px;
+    float: left;
+    margin-left: 40px;
+    padding: 35px;
+    background-color: #e7e7e7;
+    margin-top:  -140px;
+}
+#Anh img{
+    border-radius: 100%;
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+}
+#Avar img{
+    width: 100%;
+    height: auto;
+}
+#Anh h3{
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+#Anh p{
+    font-size: 18px;
+    margin: 8px 0;
+}
+#Anh hr, #ThongTin hr{
+    border: 1px solid #a1a1a1;
+    margin-top: 25px;
+}
+#Anh a{
+    text-decoration: none;
+    color: #343132;
+}
+#Anh p i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+#ThongTin{
+    width: calc(100% - 320px);
+    float: right;
+    padding: 30px;
+}
+#Bottom{
+    float: left;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

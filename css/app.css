@@ -1,0 +1,22 @@
+body{
+    background-image: url("../anh btvn/200529171932-02-vietnam-corona-2270-4539-1590816094.png") ;
+    background-size: cover;
+}
+h1{
+    color: black;
+    text-shadow: 5px 3px 5px blue; /* số đầu tiên là*/
+    font-size: 50px;
+}
+p{
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    font-family: sans-serif;
+    font-weight: bold;/*100 200 300 (nomal) 400 500 600(bold) 800 900 */
+    text-decoration: none;
+    text-indent: 20px;
+    word-spacing: 2px;
+    text-transform: lowercase; /* capitalize: viết chữ cáu đầy tiên, uppercase: viết hoa tất cả, lowercase: viết thường hết */
+    background-color: none;
+}
